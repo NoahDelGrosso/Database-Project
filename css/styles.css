@@ -1,0 +1,18 @@
+/* styles.css */
+
+label {
+  display: block;
+}
+
+input {
+  display: block;
+}
+
+.error {
+  color: red;
+
+}
+
+.message {
+  color: green;
+}
