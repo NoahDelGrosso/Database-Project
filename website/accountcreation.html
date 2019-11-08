@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<link rel="stylesheet" href="usercreate.css">
+
+<br>
+
+<div class="table">
+    <ul>
+      <li><a href="website.html">Return Home</a></li>
+    </ul>
+</div>
+
+<br>
+
+<form action="action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Create New User</h1>
+
+    <label for="UserID"><b>UserID</b></label>
+    <input type="text" placeholder="Enter UserID" name="userid" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="university"><b>University Name</b></label>
+    <input type="text" placeholder="Enter University Name" name="university" required>
+
+    <h1>Select Account Type</h1>
+
+    <select>
+        <option value="3">Super Admin</option>
+        <option value="2">Admin</option>
+        <option value="1">Student</option>
+    </select>
+
+    <br>
+
+    <h1>New University? (Super Admin Only)</h1>
+
+    <br>
+
+    <input type="checkbox" name="superAdminCheck" value="3"> I would like to create a new university<br>
+
+    <div class="clearfix">
+      <div style="text-align:center">
+        <button align="center" type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </div>
+</form>
+
+</body>
+</html>
