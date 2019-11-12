@@ -2,7 +2,32 @@
 <html>
 <body>
 
-<a href="website.html">Return Home</a>
+<link rel="stylesheet" href="usercreate.css">
+
+<br>
+
+<div class="table">
+    <ul>
+      <li><a href="website.html">Return Home</a></li>
+    </ul>
+</div>
+
+<br>
+
+<form action="action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>View Events</h1>
+
+    <label for="Eventname"><b>Event Name</b></label>
+    <input type="text" placeholder="Enter Event Name" name="Eventname" required>
+
+    <div class="clearfix">
+      <div style="text-align:center">
+        <button align="center" type="submit" class="viewsbtn">View</button>
+      </div>
+    </div>
+  </div>
+</form>
 
 </body>
 </html>
