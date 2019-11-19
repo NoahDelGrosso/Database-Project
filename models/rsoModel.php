@@ -5,6 +5,7 @@ class Rso extends Model {
 function __construct() {
   $this->tablename = 'rsos';
   $this->id_name = 'rso_id';
+  $this->title_name = 'rso_name';
 }
 
 }
